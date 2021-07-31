@@ -1,4 +1,4 @@
-# eMART_WELL
+# eMART-WELL
 Full stack Ecommerce website
 
 
