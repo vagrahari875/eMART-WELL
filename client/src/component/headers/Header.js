@@ -66,7 +66,8 @@ function Header() {
             {isAdmin ? (
               "Admin"
             ) : (
-              <img src="logo11.png" alt="" width="200" height="40"></img>Hello
+              //<img src="logo11.png" alt="" width="200" height="40"></img>
+              "vMART-WELL"
             )}
           </Link>
         </h1>
