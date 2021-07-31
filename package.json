@@ -1,0 +1,32 @@
+{
+  "name": "Veesh-APP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server":"nodemon server.js",
+    "client":"cd client && npm run start",
+    "srever-install":"npm install",
+    "client-install":"cd client && npm install",
+    "install-all":"concurrently \"npm run server\"\"npm run client",
+    "test": "nodemon server.js",
+    "heroku-postbuild":"cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.26.1",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "react-paypal-express-checkout": "^1.0.5"
+  }
+}
