@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { GlobalState } from "../../../GlobalState";
 
 import axios from "axios";
-import App from "./GooglePayButton";
+// import App from "./GooglePayButton";
 
 import PaypalButton from "./PaypalButton";
 
@@ -112,10 +112,10 @@ function Cart() {
 
       <div className="total">
         <h3>Total:$ {total}</h3>
-        <div classname="pay">
+//         <div classname="pay">
         <PaypalButton total={total} tranSuccess={tranSuccess} />
-        <App total={total} tranSuccess={tranSuccess} />
-        </div>  
+//         <App total={total} tranSuccess={tranSuccess} />
+//         </div>  
       </div>
     </div>
   );
