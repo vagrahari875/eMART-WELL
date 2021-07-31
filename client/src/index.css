@@ -133,4 +133,12 @@ header .logo {
     height: 350px;
     width: 300px;
   }
+  .pay {
+    /* margin-left: 20px; */
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin-right: -8px; */
+  }
 }
